@@ -46,3 +46,23 @@ yarn-error.log
 *.tar.gz
 *.rar
 *.apk
+
+
+# Security & Bloat Exclusions
+.env
+*.json
+!package.json
+!manifest.json
+!tsconfig.json
+!*.ipynb
+*.pem
+*.key
+*.log
+*.zip
+*.tar
+*.gz
+node_modules/
+venv/
+target/
+dist/
+build/
